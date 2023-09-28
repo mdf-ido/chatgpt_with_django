@@ -74,6 +74,8 @@ WSGI_APPLICATION = 'chatgpt.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+CSRF_TRUSTED_ORIGINS = ['ayytiti.azurewebsites.net']
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
