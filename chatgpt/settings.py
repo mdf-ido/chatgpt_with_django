@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-)_fe!&8j!sjt%gu)lp48a8*z+#9+f-5u&tr1kbk7_m=uodo434
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ayytiti.azurewebsites.net']
+ALLOWED_HOSTS = ['ayytiti.azurewebsites.net','https://ayytiti.azurewebsites.net']
 
 
 # Application definition
@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'chatgpt.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-CSRF_TRUSTED_ORIGINS = ['ayytiti.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['ayytiti.azurewebsites.net','https://ayytiti.azurewebsites.net']
 
 DATABASES = {
     'default': {
